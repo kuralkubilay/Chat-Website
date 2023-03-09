@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo-circle {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .logo .circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.header .logo .logo-circle .circle-1 {
+    background-color: rgb(74, 175, 179);
+    margin-left: 10px;
+}
+
+.header .logo .logo-circle .circle-2 {
+    background-color: rgba(63, 6, 168);
+    margin-left: 10px;
+}
+
+.header .logo h1 {
+    color: rgba(63, 6, 168);
+}
+
+.header .logo h1 .colors {
+    color: rgb(74, 175, 179);
+}
+
+.header .logo h1 {
+    margin-left: 10px;
+}
+
+/*header finish /
+
+/*about start*/
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px 0 100px 0;
+    overflow: hidden;
+}
+
+.about .about-picture {
+    display: flex;
+    align-items: center;
+}
+
+.about .about-picture img {
+    width: 100%;
+    height: 100%;
+    max-height: 110px;
+    max-width: 110px;
+    border-radius: 50%;
+    transition: .4s;
+    margin: 10px;
+    border: rgb(74, 175, 179) 2px solid;
+    box-shadow: 0 0 20px rgb(74, 175, 179);
+
+}
+
+.about .about-picture img:hover {
+    transform: translateY(5px);
+}
+
+.about-picture .col-1 {
+    margin-left: -10px;
+}
+
+.about-picture .col-6 {
+    margin-right: -16px;
+}
+
+.col-2,
+.col-5 {
+    margin-bottom: 90px;
+}
+
+.about .about-info {
+    margin: 0 50px;
+    text-align: center;
+}
+
+.about .about-info .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about .about-info h2 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.about .about-info p {
+    font-size: 16px;
+    color: rgb(134, 128, 128);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.about .about-info a {
+    text-decoration: none;
+    padding: 13px 35px;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 35px;
+    font-weight: bold;
+
+}
+
+.about .about-info .btn-1 {
+    background-color: rgb(74, 175, 179);
+    margin-right: 15px;
+}
+
+.about .about-info .btn-1 span {
+    background-color: rgb(74, 175, 179);
+}
+
+.about .about-info .btn-1:hover span {
+    background-color: rgb(10, 53, 51);
+}
+
+.about .about-info .btn-1:hover {
+    background-color: rgb(10, 53, 51);
+    box-shadow: 0 0 20px rgb(10, 53, 51);
+}
+
+.about .about-info .btn-2 {
+    background-color: rgb(63, 6, 168);
+}
+
+.about .about-info .btn-2:hover {
+    background-color: rgb(49, 9, 71);
+    box-shadow: 0 0 20px rgb(26, 6, 31);
+}
+
+/* about finish */
+
+/* line start */
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.line .limit {
+    border: 1px solid #ddd;
+    height: 55px;
+}
+
+.line .line-circle {
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: rgb(134, 128, 128);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* line start */
+
+/*content start*/
+
+.contaniner {
+    max-width: 1300px;
+    margin: 0 50px;
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .content img {
+    width: 100%;
+    max-width: 270px;
+    margin: 160px 20px 100px 20px;
+    border-radius: 13px;
+    box-shadow: 0 0 20px rgb(74, 175, 179);
+}
+
+.container .information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    flex-direction: column;
+}
+
+.container .information h2 {
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.container .information h4 {
+    font-size: 24px;
+    color: rgb(74, 175, 179);
+}
+
+.container .information p {
+    margin: 15px 400px 5px 400px;
+    color: rgb(134, 128, 128);
+    font-size: 17px;
+}
+
+/*content finish*/
+
+/* footer start */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 55px;
+    box-shadow: 0 0 20px rgb(74, 175, 179);
+    
+}
+
+.footer-picture {
+    width: 100%;
+    height: 300px;
+    background-image: url(/image/footer.webp);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: o;
+    left: 0;
+    
+}
+
+.footer-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(202, 148, 148, 0.4);
+}
+
+
+.footer-info h4, p{
+    background-color: transparent;
+    color: #fff;
+}
+
+.footer-info h4{
+   font-size: 25px;
+   margin: 5px 30px;
+   letter-spacing: 1.2px;
+}
+
+.footer-info p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10px;
+} 
+
+.footer-info a{
+    padding: 15px 35px;
+    text-decoration:  none;
+    font-weight: bold;
+    background-color:rgb(49, 9, 71);
+    color: #fff;
+    margin-bottom: 15px;
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: center;
+    border-radius: 35px;
+    box-shadow: 0 0 20px rgb(74, 175, 179);
+}
+
+.footer-info span{
+    background-color:rgb(49, 9, 71);
+    color: rgb(74, 175, 179);
+    font-size: 13px;
+}
+
+/*footer end*/
+
+/*responsive start*/
+
+@media screen and (max-width: 870px){
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about .about-info h1{
+        font-size: 35px;
+    }
+
+    .about .about-info p{
+        font-size: 12px;
+    }
+
+    .about .about-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .picture-1{
+        margin-left: 50px;
+        
+    }
+
+    .about .picture-2{
+        padding-left: 15px;
+        margin-top: 35px;
+    }
+
+
+}
